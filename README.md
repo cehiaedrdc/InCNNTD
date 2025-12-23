@@ -1,7 +1,7 @@
 # InCNNTD
 A lightweight, Computer vision and deep learning experiments using OpenCV and TensorFlow/Keras in Google Colab.
 
-TECH STACK
+INSTALLATION
 - Python 3.8+
 - TensorFlow / Keras
 - OpenCV (Headless)
@@ -10,7 +10,7 @@ TECH STACK
 - Matplotlib
 - Google Colab
 
-INSTALLATION
+
 pip install -q opencv-python-headless==4.7.0.72
 
 IMPORTS
