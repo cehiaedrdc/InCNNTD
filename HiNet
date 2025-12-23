@@ -1,0 +1,25 @@
+Weblink : https://github.com/megvii-model/HINet
+
+HINet: Half Instance Normalization Network for Image Restoration
+
+
+Installation
+This implementation based on <a href="https://github.com/xinntao/BasicSR">BasicSR </a> which is a open source toolbox for image/video restoration tasks.
+
+
+
+
+python 3.6.9
+pytorch 1.5.1
+cuda 10.1
+
+Citation:
+
+@InProceedings{Chen_2021_CVPR,
+    author    = {Chen, Liangyu and Lu, Xin and Zhang, Jie and Chu, Xiaojie and Chen, Chengpeng},
+    title     = {HINet: Half Instance Normalization Network for Image Restoration},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2021},
+    pages     = {182-192}
+}
