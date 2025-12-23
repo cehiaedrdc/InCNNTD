@@ -1,5 +1,5 @@
 # InCNNTD
-A lightweight, Computer vision and deep learning experiments using OpenCV and TensorFlow/Keras in Google Colab.
+A lightweight, Computer vision and deep learning experiments.
 
 INSTALLATION
 - Python 3.8+
