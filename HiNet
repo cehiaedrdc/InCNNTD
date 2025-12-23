@@ -8,7 +8,7 @@ This implementation based on <a href="https://github.com/xinntao/BasicSR">BasicS
 
 
 
-Installation :
+Installation:
 python 3.6.9
 pytorch 1.5.1
 cuda 10.1
