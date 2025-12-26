@@ -65,6 +65,23 @@ The **German Traffic Sign Recognition Benchmark (GTSRB)** is a widely used publi
 
 This dataset is extensively used for benchmarking computer vision and deep learning models in intelligent transportation systems.
 
+### CCTSDB2021 (Chinese Traffic Sign Detection Benchmark)
+
+**Weblink:**  
+https://github.com/csust7zhangjm/CCTSDB2021
+
+#### Dataset Description
+The **CCTSDB2021** dataset is a comprehensive benchmark for traffic sign detection in real-world traffic environments.
+
+- Contains **17,856 images** in the training set and positive sample test set  
+- Traffic signs are categorized into three groups:
+  - Mandatory  
+  - Prohibitory  
+  - Warning  
+
+This dataset is widely used for evaluating real-time and lightweight traffic sign detection models.
+
+
 #### Citation
 If you use the GTSRB dataset, please cite:
 
@@ -84,51 +101,71 @@ If you use the GTSRB dataset, please cite:
 
 
 
-### CCTSDB2021 (Chinese Traffic Sign Detection Benchmark)
 
-**Weblink:**  
-https://github.com/csust7zhangjm/CCTSDB2021
-
-#### Dataset Description
-The **CCTSDB2021** dataset is a comprehensive benchmark for traffic sign detection in real-world traffic environments.
-
-- Contains **17,856 images** in the training set and positive sample test set  
-- Traffic signs are categorized into three groups:
-  - Mandatory  
-  - Prohibitory  
-  - Warning  
-
-This dataset is widely used for evaluating real-time and lightweight traffic sign detection models.
 
 #### Citations
 If you use the CCTSDB2021 dataset, please cite the following references:
+@article{Zhang2024AnchorFreeTSD,
+  author  = {Zhang, Jianming and Lv, Yaru and Tao, Jiajun and Huang, Fengxiang and Zhang, Jin},
+  title   = {A Robust Real-Time Anchor-Free Traffic Sign Detector with One-Level Feature},
+  journal = {IEEE Transactions on Emerging Topics in Computational Intelligence},
+  year    = {2024},
+  volume  = {8},
+  number  = {2},
+  pages   = {1437--1451},
+  doi     = {10.1109/TETCI.2024.3349464}
+}
 
-1. Zhang, J., Lv, Y., Tao, J., Huang, F., & Zhang, J.,  
-   *A robust real-time anchor-free traffic sign detector with one-level feature*,  
-   **IEEE Transactions on Emerging Topics in Computational Intelligence**, 8(2), 1437–1451, 2024.  
-   https://doi.org/10.1109/TETCI.2024.3349464
+@article{Zhang2022CCTSDB2021,
+  author  = {Zhang, Jianming and Zou, Xin and Kuang, Li-Dan and Wang, Jin and Sherratt, R. Simon and Yu, Xiaofeng},
+  title   = {CCTSDB 2021: A More Comprehensive Traffic Sign Detection Benchmark},
+  journal = {Human-centric Computing and Information Sciences},
+  year    = {2022},
+  volume  = {12},
+  pages   = {23},
+  doi     = {10.22967/HCIS.2022.12.023}
+}
 
-2. Zhang, J., Zou, X., Kuang, L.-D., Wang, J., Sherratt, R. S., & Yu, X.,  
-   *CCTSDB 2021: A more comprehensive traffic sign detection benchmark*,  
-   **Human-centric Computing and Information Sciences**, 12, Article 23, 2022.  
-   https://doi.org/10.22967/HCIS.2022.12.023
+@article{Zhang2022ReYOLO,
+  author  = {Zhang, Jianming and Zheng, Zhuofan and Xie, Xianding and Gui, Yan and Kim, Gwang-Jun},
+  title   = {ReYOLO: A Traffic Sign Detector Based on Network Reparameterization and Features Adaptive Weighting},
+  journal = {Journal of Ambient Intelligence and Smart Environments},
+  year    = {2022},
+  volume  = {14},
+  number  = {4},
+  pages   = {317--334},
+  doi     = {10.3233/AIS-220038}
+}
 
-3. Zhang, J., Zheng, Z., Xie, X., Gui, Y., & Kim, G.-J.,  
-   *ReYOLO: A traffic sign detector based on network reparameterization and features adaptive weighting*,  
-   **Journal of Ambient Intelligence and Smart Environments**, 14(4), 317–334, 2022.  
-   https://doi.org/10.3233/AIS-220038
+@article{Zhang2022MultiscaleTSD,
+  author  = {Zhang, Jianming and Ye, Zi and Jin, Xiaokang and Wang, Jin and Zhang, Jin},
+  title   = {Real-Time Traffic Sign Detection Based on Multiscale Attention and Spatial Information Aggregator},
+  journal = {Journal of Real-Time Image Processing},
+  year    = {2022},
+  volume  = {19},
+  number  = {6},
+  pages   = {1155--1167},
+  doi     = {10.1007/s11554-022-01252-w}
+}
 
-4. Zhang, J., Ye, Z., Jin, X., Wang, J., & Zhang, J.,  
-   *Real-time traffic sign detection based on multiscale attention and spatial information aggregator*,  
-   **Journal of Real-Time Image Processing**, 19(6), 1155–1167, 2022.  
-   https://doi.org/10.1007/s11554-022-01252-w
+@article{Zhang2020LightweightTSC,
+  author  = {Zhang, Jianming and Wang, Wei and Lu, Chaoquan and Wang, Jin and Sangaiah, Arun Kumar},
+  title   = {Lightweight Deep Network for Traffic Sign Classification},
+  journal = {Annals of Telecommunications},
+  year    = {2020},
+  volume  = {75},
+  number  = {7--8},
+  pages   = {369--379},
+  doi     = {10.1007/s12243-019-00731-9}
+}
 
-5. Zhang, J., Wang, W., Lu, C., Wang, J., & Sangaiah, A. K.,  
-   *Lightweight deep network for traffic sign classification*,  
-   **Annals of Telecommunications**, 75(7–8), 369–379, 2020.  
-   https://doi.org/10.1007/s12243-019-00731-9
+@article{Zhang2020CascadedRCNN,
+  author  = {Zhang, Jianming and Xie, Zhipeng and Sun, Juan and Zou, Xin and Wang, Jin},
+  title   = {A Cascaded {R-CNN} with Multiscale Attention and Imbalanced Samples for Traffic Sign Detection},
+  journal = {IEEE Access},
+  year    = {2020},
+  volume  = {8},
+  pages   = {29742--29754},
+  doi     = {10.1109/ACCESS.2020.2972338}
+}
 
-6. Zhang, J., Xie, Z., Sun, J., Zou, X., & Wang, J.,  
-   *A cascaded R-CNN with multiscale attention and imbalanced samples for traffic sign detection*,  
-   **IEEE Access**, 8, 29742–29754, 2020.  
-   https://doi.org/10.1109/ACCESS.2020.2972338
