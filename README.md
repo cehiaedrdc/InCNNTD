@@ -44,7 +44,6 @@ This research uses custom curated dataset NHITSNEAI Dataset  and publicly availa
 https://
 
 The **NHITSNEAI dataset** is a custom traffic sign dataset manually collected from the Indian road network. It captures real-world driving scenarios commonly observed in India, including variations in illumination, scale, orientation, background complexity, and partial occlusions.  
-This dataset is designed to complement publicly available benchmarks by incorporating region-specific traffic signs and visual characteristics.
 
 
 
