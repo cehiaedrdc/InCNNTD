@@ -1,24 +1,31 @@
-Weblink : https://github.com/megvii-model/HINet
+### HINet: Half Instance Normalization Network for Image Restoration
 
-HINet: Half Instance Normalization Network for Image Restoration
+**Weblink:**  
+https://github.com/megvii-model/HINet
 
+#### Overview
+**HINet (Half Instance Normalization Network)** is a deep learning model proposed for image restoration tasks. It introduces half instance normalization to improve feature representation while preserving image details, making it effective for restoration problems such as denoising and enhancement.
 
-Installation
-This implementation based on <a href="https://github.com/xinntao/BasicSR">BasicSR </a> which is a open source toolbox for image/video restoration tasks.
+#### Implementation Details
+This implementation is based on **BasicSR**, an open-source toolbox for image and video restoration tasks.
 
+**BasicSR Repository:**  
+https://github.com/xinntao/BasicSR
 
+#### Installation Requirements
+- Python **3.6.9**  
+- PyTorch **1.5.1**  
+- CUDA **10.1**
 
-Installation:
-python 3.6.9
-pytorch 1.5.1
-cuda 10.1
+#### Citation
+If you use HINet in your research, please cite the following work:
 
-Citation:
+```bibtex
 @InProceedings{Chen_2021_CVPR,
     author    = {Chen, Liangyu and Lu, Xin and Zhang, Jie and Chu, Xiaojie and Chen, Chengpeng},
     title     = {HINet: Half Instance Normalization Network for Image Restoration},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
     month     = {June},
     year      = {2021},
-    pages     = {182-192}
+    pages     = {182--192}
 }
