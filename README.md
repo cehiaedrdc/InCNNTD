@@ -149,5 +149,3 @@ If you use the CCTSDB2021 dataset, please cite the following publications:
 
 
 
-LICENSE :
-Educational and research use.
