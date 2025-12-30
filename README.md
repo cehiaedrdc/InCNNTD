@@ -104,16 +104,6 @@ If you use the GTSRB dataset, please cite:
 
 #### Citations
 If you use the CCTSDB2021 dataset, please cite the following references:
-@article{Zhang2024AnchorFreeTSD,
-  author  = {Zhang, Jianming and Lv, Yaru and Tao, Jiajun and Huang, Fengxiang and Zhang, Jin},
-  title   = {A Robust Real-Time Anchor-Free Traffic Sign Detector with One-Level Feature},
-  journal = {IEEE Transactions on Emerging Topics in Computational Intelligence},
-  year    = {2024},
-  volume  = {8},
-  number  = {2},
-  pages   = {1437--1451},
-  doi     = {10.1109/TETCI.2024.3349464}
-}
 
 @article{Zhang2022CCTSDB2021,
   author  = {Zhang, Jianming and Zou, Xin and Kuang, Li-Dan and Wang, Jin and Sherratt, R. Simon and Yu, Xiaofeng},
@@ -125,46 +115,4 @@ If you use the CCTSDB2021 dataset, please cite the following references:
   doi     = {10.22967/HCIS.2022.12.023}
 }
 
-@article{Zhang2022ReYOLO,
-  author  = {Zhang, Jianming and Zheng, Zhuofan and Xie, Xianding and Gui, Yan and Kim, Gwang-Jun},
-  title   = {ReYOLO: A Traffic Sign Detector Based on Network Reparameterization and Features Adaptive Weighting},
-  journal = {Journal of Ambient Intelligence and Smart Environments},
-  year    = {2022},
-  volume  = {14},
-  number  = {4},
-  pages   = {317--334},
-  doi     = {10.3233/AIS-220038}
-}
-
-@article{Zhang2022MultiscaleTSD,
-  author  = {Zhang, Jianming and Ye, Zi and Jin, Xiaokang and Wang, Jin and Zhang, Jin},
-  title   = {Real-Time Traffic Sign Detection Based on Multiscale Attention and Spatial Information Aggregator},
-  journal = {Journal of Real-Time Image Processing},
-  year    = {2022},
-  volume  = {19},
-  number  = {6},
-  pages   = {1155--1167},
-  doi     = {10.1007/s11554-022-01252-w}
-}
-
-@article{Zhang2020LightweightTSC,
-  author  = {Zhang, Jianming and Wang, Wei and Lu, Chaoquan and Wang, Jin and Sangaiah, Arun Kumar},
-  title   = {Lightweight Deep Network for Traffic Sign Classification},
-  journal = {Annals of Telecommunications},
-  year    = {2020},
-  volume  = {75},
-  number  = {7--8},
-  pages   = {369--379},
-  doi     = {10.1007/s12243-019-00731-9}
-}
-
-@article{Zhang2020CascadedRCNN,
-  author  = {Zhang, Jianming and Xie, Zhipeng and Sun, Juan and Zou, Xin and Wang, Jin},
-  title   = {A Cascaded {R-CNN} with Multiscale Attention and Imbalanced Samples for Traffic Sign Detection},
-  journal = {IEEE Access},
-  year    = {2020},
-  volume  = {8},
-  pages   = {29742--29754},
-  doi     = {10.1109/ACCESS.2020.2972338}
-}
 
